@@ -1,15 +1,16 @@
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class main {
-
-    private static boolean compare(Convert c1, Convert c2) {
+    private static boolean compare (Convert c1, Convert c2){
         return c1.getFaceit1() * c1.getFaceit2() < c2.getFaceit1() * c2.getFaceit2();
     }
-
     public static void main(String[] args) {
 
-        while (true) {
+        while(true)
+
+        {
             Scanner scanner = new Scanner(System.in);
             float f1;
             float f2;
@@ -47,6 +48,5 @@ public class main {
         }
 
     }
+
 }
-
-
